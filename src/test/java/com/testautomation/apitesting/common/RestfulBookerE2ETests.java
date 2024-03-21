@@ -9,6 +9,7 @@ import static org.hamcrest.Matchers.*;
 import Data.RestfulBooker.BookingData;
 import Data.RestfulBooker.PartialBookingData;
 import Data.RestfulBooker.Tokencreds;
+import com.github.javafaker.Faker;
 import org.hamcrest.Matchers;
 import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Test;
@@ -20,7 +21,7 @@ import org.testng.annotations.Test;
  * if a booking is deleted.
  */
 public class RestfulBookerE2ETests extends BaseTest {
-
+    private static final Faker FAKER = Faker.instance();
     private BookingData newBooking;
     private BookingData updatedBooking;
     private PartialBookingData partialUpdateBooking;
@@ -172,4 +173,24 @@ public class RestfulBookerE2ETests extends BaseTest {
                 .then()
                 .statusCode(404);
     }
+
+    @Test(dependsOnMethods = {"deleteBookingTest"})
+    public void testDeleteBookingWhenIDDoesNotExist() {
+        given().header("Cookie", "token=" + generateToken())
+                .when()
+                .delete("/booking/" + bookingId)
+                .then()
+                .statusCode(405);
+    }
+
+    @Test
+    public void testBookingDetailsWithInvalidID() {
+        float fakeBookingId = FAKER.number().numberBetween(-1, -100);
+        given().pathParam("bookingId", fakeBookingId)
+                .when()
+                .get("/booking/{bookingId}")
+                .then()
+                .statusCode(404);
+    }
+
 }

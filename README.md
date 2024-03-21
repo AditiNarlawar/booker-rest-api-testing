@@ -1,7 +1,7 @@
 ## REST Assured API Testing | Aditi Narlawar
 
 
-This project contains end-to-end tests for the Restful Booker API. It covers various scenarios such as creating a booking, retrieving a booking, updating a booking, partially updating a booking, deleting a booking, and checking if a booking is deleted.
+This project contains end-to-end tests for the Restful Booker API. It covers various scenarios such as creating a booking, retrieving a booking, updating a booking, partially updating a booking, deleting a booking, checking if a booking is deleted, checking booking details when ID does not exist and booking details with invalid ID.
 
 ## What does this repository contain?
 
@@ -53,6 +53,16 @@ This repository contains example codes of API Tests using REST Assured. It inclu
 - Test method to check if a booking is deleted.
 - Uses the `GET /booking/{id}` endpoint.
 - Verifies that the booking returns a '404 Not Found' status code after deletion.
+
+### Test Delete Booking When ID Does Not Exist
+- Test method to verify the behavior when attempting to delete a booking with a non-existing ID.
+- Utilizes the `DELETE /booking/{id}` endpoint.
+- Verifies that the server responds with a '405 Method Not Allowed' status code.
+
+### Test Booking Details With Invalid ID
+- Test method to verify the behavior when retrieving booking details using an invalid ID.
+- Utilizes the `GET /booking/{id}` endpoint.
+- Verifies that the server responds with a '404 Not Found' status code.
 
 ## Test Setup
 - The test data is set up before running the tests using the `@BeforeTest` annotation.

@@ -13,6 +13,8 @@
                     <include name="updatePartialBookingTest"/>
                     <include name="deleteBookingTest"/>
                     <include name="checkBookingIsDeleted"/>
+                    <include name="testDeleteBookingWhenIDDoesNotExist"/>
+                    <include name="testBookingDetailsWithInvalidID"/>
                 </methods>
             </class>
         </classes>
