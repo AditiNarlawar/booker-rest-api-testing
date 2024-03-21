@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <test verbose="2" preserve-order="true" name="Restful Booker Test Suite"/>
+
+    <test name="Restful Booker tests">
+        <classes>
+            <class name="com.testautomation.apitesting.common.RestfulBookerE2ETests">
+                <methods>
+                    <include name="createBookingTest"/>
+                    <include name="getBookingTest"/>
+                    <include name="updateBookingTest"/>
+                    <include name="updatePartialBookingTest"/>
+                    <include name="deleteBookingTest"/>
+                    <include name="checkBookingIsDeleted"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    <listeners>
+        <listener class-name="listeners.TestListener"/>
+    </listeners>
+</suite>
