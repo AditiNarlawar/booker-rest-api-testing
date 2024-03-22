@@ -5,9 +5,9 @@ This project contains end-to-end tests for the Restful Booker API. It covers var
 
 ## What does this repository contain?
 
-This repository contains example codes of API Tests using REST Assured. It includes the following features and components:
+This project contains codes for demonstrating RESTful API Testing using Booker APIs. It includes the following features and components:
 
-- **`REST Assured`:** Example code demonstrating API testing using REST Assured library.
+- **`REST Assured`:** Code demonstrating API testing using REST Assured library.
 - **`Hamcrest Matchers`:** Assertions are performed using Hamcrest Matchers.
 - **`TestNG Listeners`:** Events in the test execution are captured using TestNG Listeners, providing detailed logs.
 - **`Log4j`:** Logs are captured using Log4j for better debugging and reporting.
