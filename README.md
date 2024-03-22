@@ -1,7 +1,7 @@
 ## REST Assured API Testing | Aditi Narlawar
 
 
-This project contains end-to-end tests for the Restful Booker API. It covers various scenarios such as creating a booking, retrieving a booking, updating a booking, partially updating a booking, deleting a booking, checking if a booking is deleted, checking booking details when ID does not exist and booking details with invalid ID.
+This project contains end-to-end test suite for the Restful Booker API. It covers various positive and negative scenarios such as creating a booking, retrieving a booking, updating a booking, partially updating a booking, deleting a booking, checking if a booking is deleted, checking booking details when ID does not exist and booking details with invalid ID.
 
 ## What does this repository contain?
 
