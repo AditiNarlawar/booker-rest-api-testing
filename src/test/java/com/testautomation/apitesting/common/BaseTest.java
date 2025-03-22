@@ -16,12 +16,12 @@ public class BaseTest {
 
     @BeforeClass
     public void setup() {
-        // Explicitly load setup.env from the project's root directory
+        // Explicitly load .env from the project's root directory
         Dotenv dotenv = Dotenv.configure()
-                .directory(System.getProperty("user.dir")) // Ensure it looks in the root
-                .filename("setup.env") // Specify the correct filename
+                .directory(System.getProperty("user.dir"))
+                .filename(".env")
                 .load();
-        String baseUri = dotenv.get("BASE_URI", "https://default-uri.com"); // Fallback URI
+        String baseUri = dotenv.get("BASE_URI", "https://restful-booker.herokuapp.com");
 
         RequestSpecification requestSpecification = new RequestSpecBuilder()
                 .setBaseUri(baseUri)
