@@ -1,51 +1,121 @@
-[INFO] 21-03-2024 18:21:16 [main] [Log] - ============================================================
-[INFO] 21-03-2024 18:21:16 [main] [Log] - Test case: createBookingTest test is starting...
-[INFO] 21-03-2024 18:21:16 [main] [Log] - ============================================================
-[INFO] 21-03-2024 18:21:20 [main] [Log] - ============================================================
-[INFO] 21-03-2024 18:21:20 [main] [Log] - Test case: createBookingTest is passed.
-[INFO] 21-03-2024 18:21:20 [main] [Log] - ============================================================
-[INFO] 21-03-2024 18:21:20 [main] [Log] - ============================================================
-[INFO] 21-03-2024 18:21:20 [main] [Log] - Test case: getBookingTest test is starting...
-[INFO] 21-03-2024 18:21:20 [main] [Log] - ============================================================
-[INFO] 21-03-2024 18:21:22 [main] [Log] - ============================================================
-[INFO] 21-03-2024 18:21:22 [main] [Log] - Test case: getBookingTest is passed.
-[INFO] 21-03-2024 18:21:22 [main] [Log] - ============================================================
-[INFO] 21-03-2024 18:21:22 [main] [Log] - ============================================================
-[INFO] 21-03-2024 18:21:22 [main] [Log] - Test case: testBookingDetailsWithInvalidID test is starting...
-[INFO] 21-03-2024 18:21:22 [main] [Log] - ============================================================
-[INFO] 21-03-2024 18:21:24 [main] [Log] - ============================================================
-[INFO] 21-03-2024 18:21:24 [main] [Log] - Test case: testBookingDetailsWithInvalidID is passed.
-[INFO] 21-03-2024 18:21:24 [main] [Log] - ============================================================
-[INFO] 21-03-2024 18:21:24 [main] [Log] - ============================================================
-[INFO] 21-03-2024 18:21:24 [main] [Log] - Test case: updateBookingTest test is starting...
-[INFO] 21-03-2024 18:21:24 [main] [Log] - ============================================================
-[INFO] 21-03-2024 18:21:28 [main] [Log] - ============================================================
-[INFO] 21-03-2024 18:21:28 [main] [Log] - Test case: updateBookingTest is passed.
-[INFO] 21-03-2024 18:21:28 [main] [Log] - ============================================================
-[INFO] 21-03-2024 18:21:28 [main] [Log] - ============================================================
-[INFO] 21-03-2024 18:21:28 [main] [Log] - Test case: updatePartialBookingTest test is starting...
-[INFO] 21-03-2024 18:21:28 [main] [Log] - ============================================================
-[INFO] 21-03-2024 18:21:31 [main] [Log] - ============================================================
-[INFO] 21-03-2024 18:21:31 [main] [Log] - Test case: updatePartialBookingTest is passed.
-[INFO] 21-03-2024 18:21:31 [main] [Log] - ============================================================
-[INFO] 21-03-2024 18:21:31 [main] [Log] - ============================================================
-[INFO] 21-03-2024 18:21:31 [main] [Log] - Test case: deleteBookingTest test is starting...
-[INFO] 21-03-2024 18:21:31 [main] [Log] - ============================================================
-[INFO] 21-03-2024 18:21:35 [main] [Log] - ============================================================
-[INFO] 21-03-2024 18:21:35 [main] [Log] - Test case: deleteBookingTest is passed.
-[INFO] 21-03-2024 18:21:35 [main] [Log] - ============================================================
-[INFO] 21-03-2024 18:21:35 [main] [Log] - ============================================================
-[INFO] 21-03-2024 18:21:35 [main] [Log] - Test case: testDeleteBookingWhenIDDoesNotExist test is starting...
-[INFO] 21-03-2024 18:21:35 [main] [Log] - ============================================================
-[INFO] 21-03-2024 18:21:38 [main] [Log] - ============================================================
-[INFO] 21-03-2024 18:21:38 [main] [Log] - Test case: testDeleteBookingWhenIDDoesNotExist is passed.
-[INFO] 21-03-2024 18:21:38 [main] [Log] - ============================================================
-[INFO] 21-03-2024 18:21:38 [main] [Log] - ============================================================
-[INFO] 21-03-2024 18:21:38 [main] [Log] - Test case: checkBookingIsDeleted test is starting...
-[INFO] 21-03-2024 18:21:38 [main] [Log] - ============================================================
-[INFO] 21-03-2024 18:21:40 [main] [Log] - ============================================================
-[INFO] 21-03-2024 18:21:40 [main] [Log] - Test case: checkBookingIsDeleted is passed.
-[INFO] 21-03-2024 18:21:40 [main] [Log] - ============================================================
-[INFO] 21-03-2024 18:21:40 [main] [Log] - ============================================================
-[INFO] 21-03-2024 18:21:40 [main] [Log] - Test Execution Completed Successfully for all tests!!
-[INFO] 21-03-2024 18:21:40 [main] [Log] - ============================================================
+[INFO] 22-03-2025 15:42:23 [main] [Log] - ============================================================
+[INFO] 22-03-2025 15:42:23 [main] [Log] - Test case: createBookingTest test is starting...
+[INFO] 22-03-2025 15:42:23 [main] [Log] - ============================================================
+[WARN] 22-03-2025 15:42:23 [main] [Log] - Test case: createBookingTest is skipped.
+[INFO] 22-03-2025 15:42:23 [main] [Log] - ============================================================
+[INFO] 22-03-2025 15:42:23 [main] [Log] - Test case: getBookingTest test is starting...
+[INFO] 22-03-2025 15:42:23 [main] [Log] - ============================================================
+[WARN] 22-03-2025 15:42:23 [main] [Log] - Test case: getBookingTest is skipped.
+[INFO] 22-03-2025 15:42:23 [main] [Log] - ============================================================
+[INFO] 22-03-2025 15:42:23 [main] [Log] - Test case: testBookingDetailsWithInvalidID test is starting...
+[INFO] 22-03-2025 15:42:23 [main] [Log] - ============================================================
+[WARN] 22-03-2025 15:42:23 [main] [Log] - Test case: testBookingDetailsWithInvalidID is skipped.
+[INFO] 22-03-2025 15:42:23 [main] [Log] - ============================================================
+[INFO] 22-03-2025 15:42:23 [main] [Log] - Test case: updateBookingTest test is starting...
+[INFO] 22-03-2025 15:42:23 [main] [Log] - ============================================================
+[WARN] 22-03-2025 15:42:23 [main] [Log] - Test case: updateBookingTest is skipped.
+[INFO] 22-03-2025 15:42:23 [main] [Log] - ============================================================
+[INFO] 22-03-2025 15:42:23 [main] [Log] - Test case: updatePartialBookingTest test is starting...
+[INFO] 22-03-2025 15:42:23 [main] [Log] - ============================================================
+[WARN] 22-03-2025 15:42:23 [main] [Log] - Test case: updatePartialBookingTest is skipped.
+[INFO] 22-03-2025 15:42:23 [main] [Log] - ============================================================
+[INFO] 22-03-2025 15:42:23 [main] [Log] - Test case: deleteBookingTest test is starting...
+[INFO] 22-03-2025 15:42:23 [main] [Log] - ============================================================
+[WARN] 22-03-2025 15:42:23 [main] [Log] - Test case: deleteBookingTest is skipped.
+[INFO] 22-03-2025 15:42:23 [main] [Log] - ============================================================
+[INFO] 22-03-2025 15:42:23 [main] [Log] - Test case: testDeleteBookingWhenIDDoesNotExist test is starting...
+[INFO] 22-03-2025 15:42:23 [main] [Log] - ============================================================
+[WARN] 22-03-2025 15:42:23 [main] [Log] - Test case: testDeleteBookingWhenIDDoesNotExist is skipped.
+[INFO] 22-03-2025 15:42:23 [main] [Log] - ============================================================
+[INFO] 22-03-2025 15:42:23 [main] [Log] - Test case: checkBookingIsDeleted test is starting...
+[INFO] 22-03-2025 15:42:23 [main] [Log] - ============================================================
+[WARN] 22-03-2025 15:42:23 [main] [Log] - Test case: checkBookingIsDeleted is skipped.
+[INFO] 22-03-2025 15:42:24 [main] [Log] - ============================================================
+[INFO] 22-03-2025 15:42:24 [main] [Log] - Test Execution Completed Successfully for all tests!!
+[INFO] 22-03-2025 15:42:24 [main] [Log] - ============================================================
+[INFO] 22-03-2025 15:43:32 [main] [Log] - ============================================================
+[INFO] 22-03-2025 15:43:32 [main] [Log] - Test case: createBookingTest test is starting...
+[INFO] 22-03-2025 15:43:32 [main] [Log] - ============================================================
+[WARN] 22-03-2025 15:43:32 [main] [Log] - Test case: createBookingTest is skipped.
+[INFO] 22-03-2025 15:43:32 [main] [Log] - ============================================================
+[INFO] 22-03-2025 15:43:32 [main] [Log] - Test case: getBookingTest test is starting...
+[INFO] 22-03-2025 15:43:32 [main] [Log] - ============================================================
+[WARN] 22-03-2025 15:43:32 [main] [Log] - Test case: getBookingTest is skipped.
+[INFO] 22-03-2025 15:43:32 [main] [Log] - ============================================================
+[INFO] 22-03-2025 15:43:32 [main] [Log] - Test case: testBookingDetailsWithInvalidID test is starting...
+[INFO] 22-03-2025 15:43:32 [main] [Log] - ============================================================
+[WARN] 22-03-2025 15:43:32 [main] [Log] - Test case: testBookingDetailsWithInvalidID is skipped.
+[INFO] 22-03-2025 15:43:32 [main] [Log] - ============================================================
+[INFO] 22-03-2025 15:43:32 [main] [Log] - Test case: updateBookingTest test is starting...
+[INFO] 22-03-2025 15:43:32 [main] [Log] - ============================================================
+[WARN] 22-03-2025 15:43:32 [main] [Log] - Test case: updateBookingTest is skipped.
+[INFO] 22-03-2025 15:43:32 [main] [Log] - ============================================================
+[INFO] 22-03-2025 15:43:32 [main] [Log] - Test case: updatePartialBookingTest test is starting...
+[INFO] 22-03-2025 15:43:32 [main] [Log] - ============================================================
+[WARN] 22-03-2025 15:43:32 [main] [Log] - Test case: updatePartialBookingTest is skipped.
+[INFO] 22-03-2025 15:43:32 [main] [Log] - ============================================================
+[INFO] 22-03-2025 15:43:32 [main] [Log] - Test case: deleteBookingTest test is starting...
+[INFO] 22-03-2025 15:43:32 [main] [Log] - ============================================================
+[WARN] 22-03-2025 15:43:32 [main] [Log] - Test case: deleteBookingTest is skipped.
+[INFO] 22-03-2025 15:43:32 [main] [Log] - ============================================================
+[INFO] 22-03-2025 15:43:32 [main] [Log] - Test case: testDeleteBookingWhenIDDoesNotExist test is starting...
+[INFO] 22-03-2025 15:43:32 [main] [Log] - ============================================================
+[WARN] 22-03-2025 15:43:32 [main] [Log] - Test case: testDeleteBookingWhenIDDoesNotExist is skipped.
+[INFO] 22-03-2025 15:43:32 [main] [Log] - ============================================================
+[INFO] 22-03-2025 15:43:32 [main] [Log] - Test case: checkBookingIsDeleted test is starting...
+[INFO] 22-03-2025 15:43:32 [main] [Log] - ============================================================
+[WARN] 22-03-2025 15:43:32 [main] [Log] - Test case: checkBookingIsDeleted is skipped.
+[INFO] 22-03-2025 15:43:33 [main] [Log] - ============================================================
+[INFO] 22-03-2025 15:43:33 [main] [Log] - Test Execution Completed Successfully for all tests!!
+[INFO] 22-03-2025 15:43:33 [main] [Log] - ============================================================
+[INFO] 22-03-2025 15:45:34 [main] [Log] - ============================================================
+[INFO] 22-03-2025 15:45:34 [main] [Log] - Test case: createBookingTest test is starting...
+[INFO] 22-03-2025 15:45:34 [main] [Log] - ============================================================
+[INFO] 22-03-2025 15:45:42 [main] [Log] - ============================================================
+[INFO] 22-03-2025 15:45:42 [main] [Log] - Test case: createBookingTest is passed.
+[INFO] 22-03-2025 15:45:42 [main] [Log] - ============================================================
+[INFO] 22-03-2025 15:45:42 [main] [Log] - ============================================================
+[INFO] 22-03-2025 15:45:42 [main] [Log] - Test case: getBookingTest test is starting...
+[INFO] 22-03-2025 15:45:42 [main] [Log] - ============================================================
+[INFO] 22-03-2025 15:45:43 [main] [Log] - ============================================================
+[INFO] 22-03-2025 15:45:43 [main] [Log] - Test case: getBookingTest is passed.
+[INFO] 22-03-2025 15:45:43 [main] [Log] - ============================================================
+[INFO] 22-03-2025 15:45:43 [main] [Log] - ============================================================
+[INFO] 22-03-2025 15:45:43 [main] [Log] - Test case: testBookingDetailsWithInvalidID test is starting...
+[INFO] 22-03-2025 15:45:43 [main] [Log] - ============================================================
+[INFO] 22-03-2025 15:45:44 [main] [Log] - ============================================================
+[INFO] 22-03-2025 15:45:44 [main] [Log] - Test case: testBookingDetailsWithInvalidID is passed.
+[INFO] 22-03-2025 15:45:44 [main] [Log] - ============================================================
+[INFO] 22-03-2025 15:45:44 [main] [Log] - ============================================================
+[INFO] 22-03-2025 15:45:44 [main] [Log] - Test case: updateBookingTest test is starting...
+[INFO] 22-03-2025 15:45:44 [main] [Log] - ============================================================
+[INFO] 22-03-2025 15:45:47 [main] [Log] - ============================================================
+[INFO] 22-03-2025 15:45:47 [main] [Log] - Test case: updateBookingTest is passed.
+[INFO] 22-03-2025 15:45:47 [main] [Log] - ============================================================
+[INFO] 22-03-2025 15:45:47 [main] [Log] - ============================================================
+[INFO] 22-03-2025 15:45:47 [main] [Log] - Test case: updatePartialBookingTest test is starting...
+[INFO] 22-03-2025 15:45:47 [main] [Log] - ============================================================
+[INFO] 22-03-2025 15:45:49 [main] [Log] - ============================================================
+[INFO] 22-03-2025 15:45:49 [main] [Log] - Test case: updatePartialBookingTest is passed.
+[INFO] 22-03-2025 15:45:49 [main] [Log] - ============================================================
+[INFO] 22-03-2025 15:45:49 [main] [Log] - ============================================================
+[INFO] 22-03-2025 15:45:49 [main] [Log] - Test case: deleteBookingTest test is starting...
+[INFO] 22-03-2025 15:45:49 [main] [Log] - ============================================================
+[INFO] 22-03-2025 15:45:51 [main] [Log] - ============================================================
+[INFO] 22-03-2025 15:45:51 [main] [Log] - Test case: deleteBookingTest is passed.
+[INFO] 22-03-2025 15:45:51 [main] [Log] - ============================================================
+[INFO] 22-03-2025 15:45:51 [main] [Log] - ============================================================
+[INFO] 22-03-2025 15:45:51 [main] [Log] - Test case: testDeleteBookingWhenIDDoesNotExist test is starting...
+[INFO] 22-03-2025 15:45:51 [main] [Log] - ============================================================
+[INFO] 22-03-2025 15:45:53 [main] [Log] - ============================================================
+[INFO] 22-03-2025 15:45:53 [main] [Log] - Test case: testDeleteBookingWhenIDDoesNotExist is passed.
+[INFO] 22-03-2025 15:45:53 [main] [Log] - ============================================================
+[INFO] 22-03-2025 15:45:53 [main] [Log] - ============================================================
+[INFO] 22-03-2025 15:45:53 [main] [Log] - Test case: checkBookingIsDeleted test is starting...
+[INFO] 22-03-2025 15:45:53 [main] [Log] - ============================================================
+[INFO] 22-03-2025 15:45:55 [main] [Log] - ============================================================
+[INFO] 22-03-2025 15:45:55 [main] [Log] - Test case: checkBookingIsDeleted is passed.
+[INFO] 22-03-2025 15:45:55 [main] [Log] - ============================================================
+[INFO] 22-03-2025 15:45:55 [main] [Log] - ============================================================
+[INFO] 22-03-2025 15:45:55 [main] [Log] - Test Execution Completed Successfully for all tests!!
+[INFO] 22-03-2025 15:45:55 [main] [Log] - ============================================================
